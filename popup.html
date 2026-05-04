@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SOUnD Scheduler</title>
+
+    <link rel="stylesheet" href="/src/stylesheet.css" />
+</head>
+<body>
+    <main class="popup-shell">
+      <header class="popup-header">
+        <div>
+          <h1>SOUnD Scheduler</h1>
+          <p>Mark when you are usually available each week.</p>
+        </div>
+
+        <button id="clearAvailabilityButton" class="clear-button" type="button">
+          Clear Availability
+        </button>
+      </header>
+
+      <section class="grid-wrapper" aria-label="Weekly availability grid">
+        <div id="availabilityGrid" class="availability-grid"></div>
+      </section>
+    </main>
+
+    <!-- This loads our TypeScript popup code. Vite turns it into browser JavaScript. -->
+    <script type="module" src="/src/popup.ts"></script>
+    
+</body>
+</html>
