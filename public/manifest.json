@@ -1,0 +1,18 @@
+{
+    "manifest_version": 3,
+    "name": "SOUnD Scheduler Extension",
+    "description": "A global calender/when2meet type extension to make everything SOUnD scheduling easier. - Built by Aryan Rajpal",
+    "version": "1.0.0",
+    "action": {
+        "default_popup": "popup.html"
+    },
+    "icons": {
+        "16": "images/sound-16.png",
+        "32": "images/sound-32.png",
+        "48": "images/sound-48.png",
+        "128": "images/sound-128.png"
+    },
+    "permissions": [
+        "storage"
+    ]
+}
